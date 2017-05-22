@@ -29,6 +29,8 @@ social:
    twitter: doganca
    linkedin: dgncan
 
+include: ["robots.txt"]
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
