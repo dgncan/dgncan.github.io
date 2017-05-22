@@ -1,0 +1,47 @@
+# Jekyll Defaults
+title: dogancan.net
+description: Doğan Can kişisel web sitesi
+baseurl: "/" # the subpath of your site, e.g. /blog
+
+url: "http://dgncan.github.io"
+github: http://github.com/dgncan
+highlighter: rouge
+markdown: kramdown
+permalink: /:title/
+paginate: 4
+gems: [jekyll-paginate]
+paginate_path: "/page:num"
+rss_path: /feed.xml
+navigation:
+- text: Ben
+  url: /about/
+- text: Archives
+  url: /archives/
+- text: Tags
+  url: /tags/
+
+google_analytics: UA-49928671-1
+
+disqus: "dogancanblog"
+
+social:
+   github: dgncan
+   twitter: doganca
+   linkedin: dgncan
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
