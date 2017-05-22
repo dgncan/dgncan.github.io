@@ -1,3 +1,5 @@
 *.espressostorage
 _site/*
-
+_posts/taslak
+_idea/
+.DS_Store
