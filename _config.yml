@@ -3,7 +3,7 @@ title: dogancan.net
 description: Doğan Can kişisel web sitesi
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "http://dgncan.github.io"
+url: "http://dogancan.net"
 github: http://github.com/dgncan
 highlighter: rouge
 markdown: kramdown
