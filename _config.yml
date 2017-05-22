@@ -41,7 +41,7 @@ defaults:
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
-      path: "" # all files
+      path: "/about" # all files
     values:
       layout: "page"
       show-avatar: true
