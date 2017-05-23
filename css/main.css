@@ -41,7 +41,7 @@ header h1 {
     font-weight: bold;
     font: 1em -apple-system-headline, "Droid Sans Mono", Courier, mono;
     text-transform: lowercase;
-    margin-left: 25px;
+    margin-left: 40px;
     padding-bottom: 2.1em;
 }
 header h1 a {
@@ -315,9 +315,13 @@ code {
 .pager .next a {
     float: right
 }
+#footer {
+    margin-top:30px;
+    margin-bottom:30px;
+}
 @media (min-width: 704px) {
 
-    #main {
+    #main, #footer {
         width: 640px;
         margin-left: auto;
         margin-right: auto;

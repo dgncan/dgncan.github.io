@@ -2,7 +2,23 @@
 {% include navigation.html %}
 <section id="main">
 	{{ content }}
-	
+	<div id="footer">
+		<hr>
+		<nav>
+			<ul>
+		      <li>
+		        <a href="https://github.com/{{ site.social.github }}">Github</a>
+		      </li>
+		      <li>
+		        <a href="https://twitter.com/{{ site.social.twitter }}">Twitter</a>
+		      </li>
+		      <li>
+		        <a href="https://linkedin.com/in/{{ site.social.linkedin }}">LinkedIn</a>
+		      </li>
+			</ul>
+		</nav>
+	</div>
+
 	<div class="disqus-comments">
 	    {% include disqus.html %}
 	</div>
