@@ -1,7 +1,7 @@
 # Jekyll Defaults
 title: dogancan.net
 description: Doğan Can kişisel web sitesi
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 url: "http://dogancan.net"
 github: http://github.com/dgncan
