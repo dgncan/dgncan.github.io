@@ -1,7 +1,7 @@
 # Jekyll Defaults
 title: dogancan.net
 description: Doğan Can kişisel web sitesi
-baseurl: "http://dogancan.net/" # the subpath of your site, e.g. /blog
+# baseurl: "http://dogancan.net/" # the subpath of your site, e.g. /blog
 
 url: "http://dogancan.net"
 github: http://github.com/dgncan
@@ -30,6 +30,8 @@ social:
    linkedin: dgncan
 
 include: ["robots.txt"]
+
+images: '/assets/images'
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
